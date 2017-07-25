@@ -3,8 +3,14 @@
  $ git tag -a v0.1 <commitid>
  ```
 
-## Reset
- ```git
+### Reset
+ ```bash
 git reset --hard
 git clean -d -x -f
+```
+
+### Diff
+
+```bash
+git difftool
 ```
