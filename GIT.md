@@ -14,3 +14,9 @@ git clean -d -x -f
 ```bash
 git difftool
 ```
+
+### Reset a particular file to HEAD
+
+```bash
+git reset -- FILENAME
+```
