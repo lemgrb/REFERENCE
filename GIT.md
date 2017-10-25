@@ -12,7 +12,14 @@ git clean -d -x -f
 ### Diff
 
 ```bash
-git difftool
+$ git difftool
+```
+
+### Merge dry run
+
+```bash
+$ git merge origin/INTEGRATION --no-commit --no-ff
+$ git merge --abort
 ```
 
 ### Reset a particular file to HEAD
