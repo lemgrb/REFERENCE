@@ -13,6 +13,7 @@ git clean -d -x -f
 
 ```bash
 $ git difftool
+$ git difftool 2c1373:src/test/java/..java 04a2a4:src/test/java/test/...java
 ```
 
 ### Merge dry run
