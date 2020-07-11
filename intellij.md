@@ -1,0 +1,1 @@
+- Switch tabs: `COMMAND + SHIFT + [`
