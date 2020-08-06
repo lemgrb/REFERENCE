@@ -29,3 +29,33 @@ query viewUserInfo {
   } 
 }
 ````
+
+## Another example
+# Create a post and associate it with the blog via the "postBlogId" input field.
+# Provide the returned id as the "postId" variable.
+````Graphql
+query list {
+  listPropertys(filter: {
+    permalink: {
+      contains: "TEST"
+    }
+  }) {
+    items {
+      name
+      permalink
+    }
+  }
+}
+
+mutation create {
+  createProperty(input: {
+    name: "TEST"
+		description:"TEST"
+    banner: "TEST"
+    permalink: "TEST"
+  }) {
+    id name description banner permalink
+  }
+}
+  ````
+}
