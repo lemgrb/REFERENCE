@@ -1,3 +1,6 @@
+## Resources
+- [](https://dev.to/dabit3/data-modeling-in-depth-with-graphql-aws-amplify-17-data-access-patterns-4meh)
+
 ## Mutation
 
 ````Graphql
