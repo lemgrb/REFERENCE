@@ -6,6 +6,6 @@ Pre: *.pem file (Private key)
     - Also see: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
 2.`> Login as: ec2-user`
 3. Upload .jar file via pscp or Winscp (GUI)
-  > pscp -i C:\Users\XXX\Downloads\kabtangan.ppk C:\Users\XXX\Desktop\full-stack\api\target\api-0.0.1-SNAPSHOT.jar ec2-user@XXX.compute.amazonaws.com:/home/ec2-user/api-0.0.1-SNAPSHOT.jar
+  > pscp -P 22 -i C:\Users\XXX\Downloads\kabtangan.ppk C:\Users\XXX\Desktop\full-stack\api\target\api-0.0.1-SNAPSHOT.jar ec2-user@XXX.compute.amazonaws.com:/home/ec2-user/api-0.0.1-SNAPSHOT.jar
 4. Install jdk 11: `sudo amazon-linux-extras install java-openjdk11`
 5. Listen 8080 TCP. See https://www.javacodegeeks.com/2019/10/deploy-spring-boot-application-aws-ec2-instance.html
