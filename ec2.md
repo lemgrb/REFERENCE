@@ -21,3 +21,6 @@ Pre: *.pem file (Private key)
 
 ## Enable cors
 - https://spring.io/guides/gs/rest-service-cors/
+
+## View process using 8080
+- `$ lsof -i :8080`
