@@ -14,3 +14,4 @@ Pre: *.pem file (Private key)
 ## Install node
 1. https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
 2. Deploy reactjs
+  - https://medium.com/@balghazi/deploying-react-node-js-application-to-amazon-ec2-instance-a89140ab6aab
