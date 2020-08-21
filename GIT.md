@@ -28,3 +28,9 @@ $ git merge --abort
 ```bash
 git reset -- FILENAME
 ```
+
+### Remove from staging
+- If na add then wala sa .gitignore
+````bash
+$ git rm -r --cached .idea
+````
