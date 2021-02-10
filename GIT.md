@@ -34,3 +34,9 @@ git reset -- FILENAME
 ````bash
 $ git rm -r --cached .idea
 ````
+
+### E-view ang remote
+
+````bash
+$ git remote -v
+````
