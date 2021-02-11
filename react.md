@@ -8,7 +8,7 @@
 4. npm start
 
 ## Resources
-- [Commonly faced problesm](https://jscomplete.com/learn/react-beyond-basics/react-cfp)
+- [Commonly faced problems](https://jscomplete.com/learn/react-beyond-basics/react-cfp)
 - [Css in js][https://github.com/michelebertoli/css-in-js]
 - [Why react?](http://jscomplete.com/why-react)
 - [Class Component](https://jscomplete.com/playground/rgs2.7)
@@ -16,10 +16,15 @@
     - Guide for font-awesome: https://github.com/FortAwesome/react-fontawesome
 - [Entire game ba](http://github.com/jscomplete/rgs-star-match)
 
-## VS Code plugins
+## VSCode plugins
 - ESLint
 - Prettier
 - Simple React Snippets
+- Live Server
+- Bracket Colorizer
+- HTML CSS Support (Bootstrap 4)
+- Live SASS Compiler
+- Git lens
 
 
 ## Checklist
