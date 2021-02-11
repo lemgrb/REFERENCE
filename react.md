@@ -2,10 +2,15 @@
 - https://www.youtube.com/watch?v=Ke90Tje7VS0
 
 ## Installation
-1. Go to nodejs.org and download and install
-2. `npx create-react-app kabtangan-ui`
+1. Go to [](https://nodejs.org/en/) and download and install
+2. Check versions: `$ npm -v && node-v`
+
+## Setup
+1. `npm install create-react-app`
+2. `npx create-react-app <directory>`
 3. cd `<directory>`
-4. npm start
+4. `npm start` | `npm run build` | `npm build` | `npm eject`
+5. `$ serve -s <build_folder>`
 
 ## Resources
 - [Commonly faced problems](https://jscomplete.com/learn/react-beyond-basics/react-cfp)
