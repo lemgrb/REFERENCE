@@ -30,6 +30,19 @@ function pow(x, n) {
 }
 ```
 
+5. Sample `package.json`:
+
+```js
+{
+  "name":"mocha-sandbox",
+  "version":"0.1.0",
+  "private": true,
+  "scripts": {
+    "test":"mocha"
+  }
+}
+```
+
 ## Method 2 (Client side testing)
 
 1. Import Mocha css: `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css" />`
