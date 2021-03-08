@@ -267,3 +267,42 @@ $ node main2.js
 Dog says Aww
 Cat says Meow
 ```
+
+#### Constructor functions (or object prototypes?)
+
+Instead of creating multiple object literals:
+
+```javascript
+// Object literal 1
+let user1 = {
+  name: "User1",
+  isAdmin: false,
+};
+
+// Object literal 2
+let user2 = {
+  name: "User2",
+  isAdmin: false,
+};
+
+console.log(user1);
+console.log(user2);
+```
+
+Use **constructor functions**:
+
+```javascript
+function User(name, isAdmin = false) {
+  // this = {}; (implicitly)
+  this.name = name;
+  this.isAdmin = isAdmin;
+  // Pwede methods pod diri (see Object literals sa taas)
+  // return this; (implicitly)
+}
+
+let user1 = new User("User1");
+let user2 = new User("User2");
+
+console.log(user1);
+console.log(user2);
+```
