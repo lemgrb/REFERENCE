@@ -64,8 +64,7 @@ console.log(user);
 
 ```bash
 $ node main.js
-{ customKey: 'value', 'customKey-guest': 'value', key: 'val
-ue' }
+{ customKey: 'value', 'customKey-guest': 'value', key: 'value' }
 ```
 
 ### Property Value Shorthand
@@ -132,8 +131,7 @@ user2.name = "Lemuel2";
 console.log(user);
 console.log(user2);
 console.log(user == user2); // TRUE - if reference same object
-console.log(user === user2); // TRUE - if references the same
-object;
+console.log(user === user2); // TRUE - if references the same object;
 console.log(user3 == user4); // FALSE - even if looks same
 ```
 
