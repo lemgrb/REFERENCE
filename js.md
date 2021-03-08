@@ -216,3 +216,54 @@ d: true } }
 ad: true } }
 
 ```
+
+## this
+
+Method shorthand:
+
+```javascript
+// Method shorthand
+let user = {
+  name: "Lem",
+  age: 31,
+  sayName() {
+    console.log(this.name);
+  },
+};
+
+user.sayName();
+```
+
+Result:
+
+```bash
+$ node main1.js
+Lem
+```
+
+Methods not bound to object
+
+```javascript
+// Methods not bound to object
+
+function greet() {
+  console.log(this.name + " says " + this.hi);
+}
+
+let dog = { name: "Dog", hi: "Aww" };
+let cat = { name: "Cat", hi: "Meow" };
+
+dog.greet = greet;
+cat.greet = greet;
+
+dog.greet();
+cat.greet();
+```
+
+Result:
+
+```bash
+$ node main2.js
+Dog says Aww
+Cat says Meow
+```
