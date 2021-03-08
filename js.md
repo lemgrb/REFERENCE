@@ -1,7 +1,8 @@
 ## Objects
 
-- **Primitives** contain only a single thing; **objects** store keyed collections of various data and more complex entities.
-- A JS **property** is a KVP pair where Key is String and Value _can be anything_.
+- Associative arrays
+- While **Primitives** contain only a single thing; **objects** store keyed collections of various data and more complex entities.
+- A JS **property** is a KVP pair where Key is String and Value _can be any type_.
 - Di pareho sa variable names, ok ra ang reserved keywords (let, for) as property names
 
 ### Create
@@ -55,11 +56,15 @@ let user = {};
 let key = "customKey"; // or, prompt("Enter key?")
 
 user[key] = "value"; // Computed property
-user[key + '-guest'] = "value" // More complex computed property
+user[key + "-guest"] = "value"; // More complex computed property
 user.key = "value"; // Di mo work sa dot notation
 
+console.log(user);
+```
 
-console.log(user); // { customKey: 'value', key: 'value', 'customKey-guest': 'val
+```bash
+$ node main.js
+{ customKey: 'value', 'customKey-guest': 'value', key: 'val
 ue' }
 ```
 
@@ -102,4 +107,114 @@ let user = {
 };
 
 for (let key in user) console.log(user[key]);
+```
+
+```bash
+$ node main.js
+Lemuel
+31
+undefined
+```
+
+#### Copy by reference, object comparisons
+
+```javascript
+let user = {
+  name: "Lemuel",
+};
+
+let user2 = user; // copy by reference
+let user3 = {};
+let user4 = {};
+
+user2.name = "Lemuel2";
+
+console.log(user);
+console.log(user2);
+console.log(user == user2); // TRUE - if reference same object
+console.log(user === user2); // TRUE - if references the same
+object;
+console.log(user3 == user4); // FALSE - even if looks same
+```
+
+#### Cloning for simple objects
+
+```javascript
+let user = { name: "Lem" };
+
+let permission1 = { canView: true };
+let permission2 = { canEdit: true };
+
+// Method 1
+Object.assign(user, permission1, permission2);
+
+// Method 2
+let clone = Object.assign({}, user);
+
+// Method 3 -- Spread operator
+let clone2 = { ...clone };
+
+// { name: 'Lem', canView: true, canEdit: true }
+console.log(user);
+console.log(clone);
+console.log(clone2);
+```
+
+#### Cloning objects nga naa say object sulod (diba copy by reference)
+
+- If eedit ang clone, ma edit sad original na nested object
+
+```javascript
+let user = {
+  name: "Lem",
+  permissions: {
+    create: true,
+    edit: true,
+    read: true,
+  },
+};
+
+let clone = Object.assign({}, user);
+clone.permissions.edit = false; // Will affect user.permission.edit = false;
+
+console.log(user);
+console.log(clone);
+```
+
+```bash
+{ name: 'Lem', permissions: { create: true, edit: false, re
+ad: true } }
+{ name: 'Lem', permissions: { create: true, edit: false, re
+ad: true } }
+
+```
+
+Gamit lang sa \_.cloneDeep(obj) from the JavaScript library lodash. hehe
+
+```javascript
+// npm install --save lodash
+var _ = require("lodash");
+
+let user = {
+  name: "Lem",
+  permissions: {
+    create: true,
+    edit: true,
+    read: true,
+  },
+};
+
+let clone = _.cloneDeep(user);
+clone.permissions.edit = false;
+console.log(user);
+console.log(clone);
+```
+
+```bash
+$ node main.js
+{ name: 'Lem', permissions: { create: true, edit: true, rea
+d: true } }
+{ name: 'Lem', permissions: { create: true, edit: false, re
+ad: true } }
+
 ```
