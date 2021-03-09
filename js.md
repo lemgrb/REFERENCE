@@ -306,3 +306,49 @@ let user2 = new User("User2");
 console.log(user1);
 console.log(user2);
 ```
+
+#### Optional chaining with '?.'
+
+- Can be used for function calls too.
+
+```javascript
+let user = {};
+console.log(user.address && user.address.street);
+// Is the same as..
+console.log(user?.address?.street);
+```
+
+#### Symbols
+
+See https://javascript.info/symbol
+
+#### Object to primitive conversion
+- Symbol.toPrimitive, toString, valueOf. For the subtle diff, see https://javascript.info/object-toprimitive
+
+```javascript
+let user31 = {
+  name: 'Lemuel',
+  age: 31,
+  [Symbol.toPrimitive](hint) {
+    console.log(`hint: ${hint}`);
+    return hint == "string"? `{name: "${this.name}"}`: this.age;
+  }
+};
+
+let userX = {};
+userX[user31] = 1;
+console.log(userX);
+console.log(+user31);
+console.log(user31+500);
+
+```
+Result:
+```bash
+$ node objtoprimitive.js
+hint: string
+{ '{name: "Lemuel"}': 1 }
+hint: number
+31
+hint: default
+531
+```
