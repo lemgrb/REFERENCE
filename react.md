@@ -34,3 +34,34 @@
 
 ## Checklist
 - In useEffect, add '[]' if once lang eexecute, see https://jasonwatmore.com/post/2020/02/01/react-fetch-http-post-request-examples
+
+
+## Examples
+
+```javascript
+ReactDOM.render(
+  <App title="Github Cards app" />,
+  document.getElementById("root")
+);
+
+```
+
+Function component (Arrow function):
+```javascript
+const App = (props) => <div className="header">{props.title}</div>;
+```
+
+or with object destructuring (field=title)
+
+```javascript
+const App = ({ title }) => <div className="header">{title}</div>;
+```
+
+or with function component
+
+```javascript
+function App(props) {
+  return <div className="header">{props.title}</div>;
+}
+```
+
