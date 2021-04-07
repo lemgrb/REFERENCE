@@ -1,0 +1,5 @@
+- `CTRL + SHIFT + P` - Execute command
+- `CTRL + P` - Search files by name
+- `CTRL + D` - Select duplicate code
+- `SHIFT + ALT + ARROW_DOWN` - Duplicate line
+- `SHIFT + ALT + <SELECT>` - Block select

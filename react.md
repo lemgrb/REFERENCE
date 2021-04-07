@@ -26,10 +26,15 @@
 - Prettier
 - Simple React Snippets
 - Live Server
-- Bracket Colorizer
+- Bracket Pair Colorizer
 - HTML CSS Support (Bootstrap 4)
-- Live SASS Compiler
+- Live Sass Compiler
 - Git lens
+- Quokka
+- Vim - Vim emulation for Visual Studio Code
+- VS Color Picker
+- Newton Next (Official) - Color Theme
+- GraphQL for VSCode
 
 
 ## Checklist
