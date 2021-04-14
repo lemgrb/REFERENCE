@@ -7,3 +7,9 @@ Example error: `npm ERR! Unexpected end of JSON input while parsing near '...6xZ
 ```bash
 $ npm cache clean --force
 ```
+
+Remove old node_modules folder
+
+```bash
+$ npm npkill
+```

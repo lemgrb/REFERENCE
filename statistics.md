@@ -11,8 +11,8 @@
 - Combination vs Permutation
 - Sample mean, median, mode
 - Population mean
-- Sample variance
-- Standard deviation
+- Sample variance  
+- Sample Standard deviation - SQRT sa variance, same unit sa samples
 
 ## Bivariate (linear relationship bet. two variables)
 - Covariance
