@@ -15,3 +15,13 @@ Find and replace
 Go to line
 
 - `22G` Go to line 22
+
+Find starting at current line
+
+- `:,$s/foo/bar/fc`
+
+Block select then indent:
+
+1. V
+2. jj
+3. <

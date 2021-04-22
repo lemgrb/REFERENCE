@@ -11,5 +11,5 @@ $ npm cache clean --force
 Remove old node_modules folder
 
 ```bash
-$ npm npkill
+$ npx npkill
 ```
