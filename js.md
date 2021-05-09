@@ -352,3 +352,6 @@ hint: number
 hint: default
 531
 ```
+## Array methods visualized
+
+https://twitter.com/sulco/status/1281545450273865730/photo/1

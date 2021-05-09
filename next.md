@@ -13,3 +13,6 @@
 
 - getStaticProps - Static generation
 - getServerProps - SSR. SSR if naay requirement sa SEO
+
+## Resources
+- [bradtraversy/next-crash-course](https://github.com/bradtraversy/next-crash-course)
