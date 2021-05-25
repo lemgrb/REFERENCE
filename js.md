@@ -323,26 +323,28 @@ console.log(user?.address?.street);
 See https://javascript.info/symbol
 
 #### Object to primitive conversion
+
 - Symbol.toPrimitive, toString, valueOf. For the subtle diff, see https://javascript.info/object-toprimitive
 
 ```javascript
 let user31 = {
-  name: 'Lemuel',
+  name: "Lemuel",
   age: 31,
   [Symbol.toPrimitive](hint) {
     console.log(`hint: ${hint}`);
-    return hint == "string"? `{name: "${this.name}"}`: this.age;
-  }
+    return hint == "string" ? `{name: "${this.name}"}` : this.age;
+  },
 };
 
 let userX = {};
 userX[user31] = 1;
 console.log(userX);
 console.log(+user31);
-console.log(user31+500);
-
+console.log(user31 + 500);
 ```
+
 Result:
+
 ```bash
 $ node objtoprimitive.js
 hint: string
@@ -352,6 +354,63 @@ hint: number
 hint: default
 531
 ```
+
 ## Array methods visualized
 
 https://twitter.com/sulco/status/1281545450273865730/photo/1
+
+## Tricks to write less js (by @scaliscum)
+
+1. DESTRUCTURING
+
+```js
+const post = {
+  data: {
+    id: 1,
+    name: "Juan dela cruz",
+  },
+};
+
+const id1 = post.data.id;
+const name1 = post.data.name;
+
+console.log(id1, name1);
+
+// destructuring
+
+const { id, name } = post.data;
+
+console.log(id, name);
+```
+
+2. FOR-LOOPS
+
+```js
+const topics = ["scs", "coa", "others"];
+
+for (let i = 0; i < topics.length; i++) console.log(topics[i]);
+
+for (let topic of topics) console.log(topic);
+
+topics.forEach((item) => console.log(item));
+```
+
+3. TEMPLATE LITERALS
+
+```js
+<Card className={`mb-2 ${styles.card}`} >
+```
+
+4. OBJECTS WITH IDENTICAL KEYS AND VALUES
+
+```js
+const name = "LEM";
+
+const data = { name: name };
+
+console.log(data);
+
+const data2 = { name };
+
+console.log(data2);
+```

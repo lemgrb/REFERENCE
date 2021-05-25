@@ -3,6 +3,7 @@
 NOTE: Using the term framework loosely (might also include libraries)
 
 ## Frontend
+- [React Developer Roadmap](https://roadmap.sh/react)
 - [Basics] Web Dev Specialization, Coursera
   - [Intro to HTML5, University of Michigan](https://www.coursera.org/learn/html)
   - [Intro to CSS3, University of Michigan](https://www.coursera.org/learn/introcss)
@@ -25,6 +26,7 @@ NOTE: Using the term framework loosely (might also include libraries)
     - With Firebase
       - [NextJS Firebase Auth Crash Course by James Perkins^](https://www.youtube.com/watch?v=qBGAdenirbs) - Firebase Authentication (Email/Password), nookies, chakra-ui
       - [How To Set Up React With Firebase/Firestore | Get & Realtime | Part 1^](https://www.youtube.com/watch?v=3ZEz-iposj8)
+      - [Add Google Analytics And Google AdSense To NextJS!^](https://www.youtube.com/watch?v=I9KJ_rVkmxk)
 - Typescript
   - Cheatsheets:
     - [typescript-cheatsheets/react](https://github.com/typescript-cheatsheets/react)
@@ -68,6 +70,8 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
   - [Firebase console](https://console.firebase.google.com/)
     - [Cloud Firestore Documentation](https://firebase.google.com/docs/firestore)
   - [Github pages](https://pages.github.com/)
+- AWS
+  - [Javascript SDK](https://docs.aws.amazon.com/sdk-for-javascript/index.html)
 
 ## Svelte
 
@@ -80,9 +84,11 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 - Wordpress + Woocommerce
 - Shopify
 - Wix
+- commerceJS - headless eCommerce
 
 ## Optimization
 - [https://web.dev/measure/](https://web.dev/measure/)
+- [GtMetrix](https://www.gtmetrix.com)
 
 
 ## UI/UX
@@ -103,6 +109,10 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 
 ## Free assets
 - Openmoji
+- [Undraw](https://undraw.co/)
+
+## Other Sass
+- [Algolia] - AI-powered search and discovery platform
 
 ## testing
 - unit
@@ -116,6 +126,20 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 - [Fitnesse]
 - [Cucumber]
 - [TestNG]
+- [Browserstack]
+- [StoryBook]
+- [Saucelabs]
+
+
+## Data visualization
+- [d3](https://d3js.org) - Data driven documents
+- https://vizhub.com
+- DataTables
+- https://blog.logrocket.com/complete-guide-building-smart-data-table-react/
+- https://sdk.gooddata.com/gooddata-ui/docs/why_gdui.html
+
+## 3d
+- [threejs](https://threejs.org) - Javascript 3d library
 
 ## Blockchain
 
@@ -155,3 +179,38 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 ## Sources
 - data.gov.ph
 - efoi
+
+## Digital marketing
+- Hootsuite
+- Buffer
+- Globe MyBusiness AMBER SMS Blaster
+- https://www.globe.com.ph/business/sme/shop/gallery.html
+
+## AWS
+> Best practice for root user: **DON'T USE IT**
+
+- aws.training
+- http://aws.amazon.com/compliance/programs
+- http://aws.amazon.com/config
+- http://aws.amazon.com/architecture/well-architected
+- http://aws.amazon.com/codepipeline
+- http://aws.amazon.com/systems-manager
+- http://aws.amazon.com/kms
+- http://aws.amazon.com/cloudhsm
+- http://aws.amazon.com/products/security
+- http://aws.amazon.com/guardduty
+- http://aws.amazon.com/security-hub
+- http://aws.amazon.com/solutions/case-studies
+- http://aws.amazon.com/whitepapers
+- http://aws.amazon.com/artifact
+- Lightsail
+  - https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-quick-start-guide-wordpress
+
+## Streaming
+- OBS
+
+## API Gateway
+- Apigee
+
+## SEO
+- https://www.sitemaps.org/
