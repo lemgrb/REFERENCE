@@ -43,7 +43,7 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 - Forms
   - [React Final Form](https://final-form.org/react/) High performance subscription-based form state management for React
   - [Formik](https://formik.org/docs/overview)
-- For SSG, Jamstack
+- For SSG, jamstack
   - Frameworks:
     - [Gatsby](https://www.gatsbyjs.com/)
     - HUGO (Go lang)
@@ -83,8 +83,12 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 ## Other frameworks
 - Wordpress + Woocommerce
 - Shopify
+- Magento
 - Wix
-- commerceJS - headless eCommerce
+- commerceJS - headless ecommerce
+
+## No-code
+- builder.io
 
 ## Optimization
 - [https://web.dev/measure/](https://web.dev/measure/)
@@ -175,10 +179,13 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 ## Others
 - MERN stack
 - [The State of Javascript Survey](https://stateofjs.com/)
+- [MachAlliance](https://machalliance.org/) - Microservices based, API-first, Cloud-native SaaS and Headless
+- [The state of headless landscape 2021](https://media-exp1.licdn.com/dms/image/sync/C4D27AQGzTFwoAUR6CA/articleshare-shrink_800/0/1613587038813?e=2159024400&v=beta&t=mXpMzWEWsmhpLNbo1lipX0WuAowC86Cbg0si677ZddU)
 
 ## Sources
 - data.gov.ph
 - efoi
+- namria
 
 ## Digital marketing
 - Hootsuite
@@ -214,3 +221,22 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 
 ## SEO
 - https://www.sitemaps.org/
+
+## Sample techstack
+- gatsby, shopify api, nest, ts, netlify, yotpo, avalara, simplr, klaviyo, ckustomer
+
+## Startups
+- Techcrunch, upscale.upd.edu.ph, godigitalasean.ph, itstartshere.ph, spri.ng, indiehackers
+
+## Some inspirations
+- herdimmunity.ph
+- sakay.ph
+
+## Docker + WSL2
+
+Follow these guides:
+
+- [Setting up WSL Version 2 and the Ubuntu app](https://codefellows.github.io/setup-guide/windows/)
+- [Download Kernel update](https://aka.ms/wsl2kernel)
+- [Install NodeJS on Windows Subsystem for Linux (WSL2)](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
+- [Install STRAPI](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#step-1-create-a-docker-compose-yaml-file)
