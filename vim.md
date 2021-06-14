@@ -25,3 +25,9 @@ Block select then indent:
 1. V
 2. jj
 3. <
+
+Add `\C` for Case insensitive text seach:
+
+```bash
+/someText\C
+```

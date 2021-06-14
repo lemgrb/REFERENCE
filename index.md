@@ -136,6 +136,13 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
   - [jenkins]
 - coco
   - jacoco
+- static code analysis
+  - pmd 
+  - findbugs
+  - sonarqube 
+  - checkstyle
+    - [google_checks.xml](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml)
+    - [google java style guide](https://google.github.io/styleguide/javaguide.html)
 - api
   - [postman](https://www.postman.com/) 
   - fitnesse - Pede api
@@ -172,6 +179,7 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
   - [saucelabs](https://saucelabs.com/) - 30-day free trial, $49/mo 1 parallel test, unli-users, unli-testing limit
   - [browserstack](https://browserstack.com/pricing) - $39/mo billed annually, or $19/mo for freelancers NO SCREENSHOTS (?)  
   - [crossbrowsertesting by Smartbear](https://crossbrowsertesting.com/) - $39/mo
+  - [testingbot](https://testingbot.com) - Cross browser testing and mobile app testing $30/mo
 
 
 ## Data visualization
@@ -186,11 +194,20 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 
 ## blockchain
 
-## relational + nosql
-- Mongoose
-- mongodb
-- firebase (Google)
-- firestore (Google)
+## Database
+- NoSQL
+  - Mongoose
+  - mongodb
+  - firebase (Google)
+  - firestore (Google)
+- Relational
+  - MySQL
+  - Oracle
+  - Postgres
+- Graph database
+  - [Neo4j](https://neo4j.brand.live/c/2021nodes-homepage)
+
+##
 
 ## datascience
 - Machine Learning
@@ -206,6 +223,7 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 
 ## security
 - [OWASP](https://owasp.org/www-project-top-ten/)
+  - [Find Security Bugs](http://find-sec-bugs.github.io/)
 
 ## mobile
 - flutter
@@ -287,3 +305,8 @@ Follow these guides:
 - [Download Kernel update](https://aka.ms/wsl2kernel)
 - [Install NodeJS on Windows Subsystem for Linux (WSL2)](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
 - [Install STRAPI](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#step-1-create-a-docker-compose-yaml-file)
+
+## Logs and traces
+- Jaeger
+- Splunk
+- Kibana
