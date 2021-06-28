@@ -15,7 +15,7 @@
 3. Run: `$ docker run -dp 3000:3000 getting-started`
 4. Snyk tests to find vulnerabilities: `$docker scan`
 5. Rebuild See #2
-6. Get id of containers: `docker ps`
+6. Get id of containers: `docker ps -a`
 7. Stop container: `docker stop <container>`
 8. Remove container: `docker rm <container>`
 9. Rerun see #3
@@ -46,3 +46,13 @@ docker run -dp 3000:3000 \
 ## docker-compose
 1. `docker-compose up -d`
 2. `docker-compose logs -f`
+
+## View space used
+```bash
+sudo docker system df
+```
+
+## Other
+- List all images: `docker images`
+- Remove docker image: `docker rmi <IMAGE ID>`
+
