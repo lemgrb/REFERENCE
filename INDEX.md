@@ -2,7 +2,9 @@
 
 NOTE: Using the term framework loosely (might also include libraries)
 
-## frontend
+See [TESTING](TESTING.md) for testing.
+
+## Frontend
 - [React Developer Roadmap](https://roadmap.sh/react)
 - [Basics] Web Dev Specialization, Coursera
   - [Intro to HTML5, University of Michigan](https://www.coursera.org/learn/html)
@@ -19,7 +21,7 @@ NOTE: Using the term framework loosely (might also include libraries)
   - Tutorials:
     - [React JS - React Tutorial for Beginners, Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
     - [React: Getting Started by Samer Buna, Pluralsight^](https://www.pluralsight.com/courses/react-js-getting-started)
-- Next.js [[Docs]](https://nextjs.org/docs) - Supports SSR/SSG/CSR. SSG good for SEO requirement
+- Next.js [[TESTING]](https://nextjs.org/docs) - Supports SSR/SSG/CSR. SSG good for SEO requirement
   - Tutorials
     - [Create a Next.js App, Vercel^](https://nextjs.org/learn/basics/create-nextjs-app)
     - [Next.js Crash Course 2021, Traversy Media^](https://www.youtube.com/watch?v=mTz0GXj8NN0)
@@ -52,6 +54,7 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
     - Headless Drupal
     - Headless Laravel
     - Strapi
+		- [strapi starters](http://strapi.io/starters) backend (rest and graphql) + nextjs frontend
   - Other soln (!ssg): Joomla/WP/Drupal + Caching/CDN
 - "CSS-in-JS"
   - [styled-jsx](https://github.com/vercel/styled-jsx)
@@ -78,7 +81,7 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 ## Other tools
 - Date: date-fns
 - [Unified.js](https://unifiedjs.com/) - For processing content e.g. Markdown to HTML
-
+- [lodash](https://lodash.com/docs/)
 
 ## Other frameworks
 - Wordpress + Woocommerce
@@ -117,70 +120,6 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 
 ## Other Sass
 - [Algolia] - AI-powered search and discovery platform
-
-## testing
-- e2e
-  - [selenium](https://www.selenium.dev/documentation/)
-  - [selion by paypal](https://github.com/paypal/SeLion)
-  - [robot framework](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
-- mobile
-  - [appium](https://appium.io/) Appium is an open source test automation framework for use with native, hybrid and mobile web apps.
-- responsive design
-  - [galen](http://galenframework.com/) Automated testing of look and feel for your responsive websites
-- web vitals (seo, accessibility)
-  - [web.dev/measure](https://web.dev/measure)
-  - [wave](https://wave.webaim.org/extension/) WAVE Web Accessibility Evaluation Tool
-  - [funkify](https://www.funkify.org/) Disability simulator
-- ci/cd
-  - [github actions]
-  - [jenkins]
-- coco
-  - jacoco
-- static code analysis
-  - pmd 
-  - findbugs
-  - sonarqube 
-  - checkstyle
-    - [google_checks.xml](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml)
-    - [google java style guide](https://google.github.io/styleguide/javaguide.html)
-- api
-  - [postman](https://www.postman.com/) 
-  - fitnesse - Pede api
-  - [soapui by smartbear](https://www.soapui.org/)
-  - [readyapi by smartbear](https://smartbear.com/product/ready-api/overview/) Test Graphql
-- [Jest](https://jestjs.io)
-- [testing-library](https://testing-library.com)
-  - [docs](https://testing-library.com/docs/)
-- testdata and demosites
-  - [faker.js](https://github.com/marak/Faker.js/) generate massive amounts of fake data in the browser and node.js
-  - [strapi starters](http://strapi.io/starters) backend (rest and graphql) + nextjs frontend
-  - [wiremock](http://wiremock.org/)
-- performance
-  - [jmeter](https://jmeter.apache.org/)
-  - [gatling](https://gatling.io/) load testing
-- bdd
-  - [gherkin]
-  - [cucumber.io](https://cucumber.io/)
-    - [docs](https://cucumber.io/docs/cucumber/)
-    - [reports](https://reports.cucumber.io/)
-  - [fitnesse](http://docs.fitnesse.org/FrontPage)
-- test-runners
-  - [testng](https://testng.org/doc/)
-  - cucumber
-  - junit
-  - [jest](https://jestjs.io/) - Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
-  - mocha?
-- [storybook](https://storybook.js.org/) - UI components testing (No experience)
-- [webdriver.io](https://webdriver.io/) - Next-gen browser and mobile automation test framework for Node.js
-  - [Webdriver Protocol](https://w3c.github.io/webdriver/)
-  - [Chrome devtools protocol](https://chromedevtools.github.io/devtools-protocol/)
-  - [Puppeter](https://pptr.dev/)
-- cloud testing platforms
-  - [saucelabs](https://saucelabs.com/) - 30-day free trial, $49/mo 1 parallel test, unli-users, unli-testing limit
-  - [browserstack](https://browserstack.com/pricing) - $39/mo billed annually, or $19/mo for freelancers NO SCREENSHOTS (?)  
-  - [crossbrowsertesting by Smartbear](https://crossbrowsertesting.com/) - $39/mo
-  - [testingbot](https://testingbot.com) - Cross browser testing and mobile app testing $30/mo
-
 
 ## Data visualization
 - [d3](https://d3js.org) - Data driven documents
@@ -257,25 +196,6 @@ Some i've used:
 - globe MyBusiness AMBER SMS Blaster
 - https://www.globe.com.ph/business/sme/shop/gallery.html
 
-## aws
-> Best practice for root user: **DON'T USE IT**
-
-- aws.training
-- http://aws.amazon.com/compliance/programs
-- http://aws.amazon.com/config
-- http://aws.amazon.com/architecture/well-architected
-- http://aws.amazon.com/codepipeline
-- http://aws.amazon.com/systems-manager
-- http://aws.amazon.com/kms
-- http://aws.amazon.com/cloudhsm
-- http://aws.amazon.com/products/security
-- http://aws.amazon.com/guardduty
-- http://aws.amazon.com/security-hub
-- http://aws.amazon.com/solutions/case-studies
-- http://aws.amazon.com/whitepapers
-- http://aws.amazon.com/artifact
-- Lightsail
-  - https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-quick-start-guide-wordpress
 
 ## Streaming
 - obs
@@ -310,3 +230,11 @@ Follow these guides:
 - Jaeger
 - Splunk
 - Kibana
+
+## Android
++ [Android Developer](https://developer.android.com/)
+
+## API Gateway
++ Apigee
++ Zuul
++ WSO2

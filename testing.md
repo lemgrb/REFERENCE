@@ -1,76 +1,97 @@
-# Testing
+## Browser automation
+- [Selenium](https://selenium.dev)
+- [Cypress](https://docs.cypress.io/)
+- [Webdriver Protocol](https://w3c.github.io/webdriver/)
+- [Chrome devtools protocol](https://chromedevtools.github.io/devtools-protocol/)
+- [Puppeter](https://pptr.dev/)
 
-### Levels of knowledge
-- K1 Remember
-- K2 Understand
-- K3 Apply
+## Selenium-based frameworks
+#### Java
+  - [selion by paypal](https://github.com/paypal/SeLion)
+  - [FluentLenium](https://github.com/FluentLenium/FluentLenium)
+  - [QAF](https://qmetry.github.io/qaf/)
+  - [Selenide](https://github.com/selenide/selenide)
+  
+#### Python
+ - [robot framework](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
+ 
+#### Appium (extends WebDriver)
+- [appium](https://appium.io/) Appium is an open source test automation framework for use with native, hybrid and mobile web apps.
 
-## Work Products
+#### Javascript
+- [https://webdriver.io](https://webdriver.io/) Next-gen browser and mobile automation test framework for Node.js
 
-## 1. Fundamentals of Testing
-### 1-2 Why is Testing Necessary?
-- QA vs Testing
-- Errors occur due to:
-  - Human fallibility
-  - Lack of experience
-  - Misunderstanding of inter-system and intra-system interation
-  - Environment conditions (for IOT) e.g. radiation, electromagnetic
-- Error (lead to) --> Defect (lead to) --> Failure
-<dl>
-  <dt>Failure</dt>
-  <dd>when code is executed, defect manifest as failure</dd>
-</dl>
-- **Root cause of defects** - earliest actions or conditions that contributed to creating the defects
+## Remote execution/Cloud testing platforms
++ [Saucelabs](https://docs.saucelabs.com) 30-day free trial, $49/mo 1 parallel test, unli-users, unli-testing limit
++ [browserstack](https://browserstack.com/pricing) - $39/mo billed annually, or $19/mo for freelancers NO SCREENSHOTS (?)  
++ [crossbrowsertesting by Smartbear](https://crossbrowsertesting.com/) - $39/mo
++ [testingbot](https://testingbot.com) - Cross browser testing and mobile app testing $30/mo
 
-### Seven (7) Testing Principles
-1. Testing shows presence of defects, not their absence
-2. Exhaustive testing is impossible
-3. Early testing (shift-left) saves time and money
-4. Defect cluster together
-5. Beware of the Pesticide Paradox
-6. Testing is context dependent
-7. Absence-of-error-fallacy
+## BDD
++ [Gherkin](https://cucumber.io/docs/gherkin/)
++ [Cucumber](https://cucumber.io/docs)
++ [Cucumber Documentation](https://cucumber.io/docs/cucumber/)
++ [Cucumber Reports](https://reports.cucumber.io/)
++ [Serenity BDD](https://serenity-bdd.info/)
 
-### 1-4 The test process
-- Commons set of test activities (test process)
-- Test Strategy:
-  1. Which test activities
-  2. How test process is implemented
-  3. When process and activities occur
-- Test Process in Context influenced by:
-  - SDLC and project methodologies
-  - Test levels and test types
-  - ....
-- Test Activities and Tasks
-  1. Test Planning - Define test objectives, approach for meeting objectives
-  2. Test Monitoring and Control
-  3. Test Analysis
-  4. Test Design
-  5. Test Implementation
-  6. Test Execution
-    - Test suites run accdg. to test schedule
-    - Report defects
-  7. Test Completion
-- Test Work Producs (See above)
-  1. System Integration Test Plan, UAT Plan, Performance Test Plan
-  2. Test Progress Reports, Test Summary Report (Audience relevant)
-  3. Defined and prioritized test conditions w/ traceability
-    - Test charters for Exploratory
-  4. Test cases and set of test cases to
-  5. Test suites, Test Execution Schedule
-  6. Defect logs
-  7. Test summary reports
-- Psychology
-  - Developer confirmation bias makes it difficult to find mistakes in their own work
-  - Developer tendency to blame the bearer of bad news (testers)
-  - Independent testers brings
+## Performance
++ [JMeter](https://jmeter.apache.org/usermanual/index.html)
++ [Gatling](https://gatling.io/) load testing
 
-## 2. Testing Throughout the Software Development Lifecycle
+## UI
+  - [Galen](http://galenframework.com/) Automated testing of look and feel for your responsive websites
+  - [storybook](https://storybook.js.org/) - UI **COMPONENTS** testing
+ 
+## Web Vitals (SEO, Accessibility)
+ - [web.dev/measure](https://web.dev/measure)
+ - [WAVE](https://wave.webaim.org/extension/) WAVE Web Accessibility Evaluation Tool
+ - [Funkify](https://www.funkify.org/) Disability simulator
 
-## 3. Static Testing
+## CI/CD
+- [Github Actions](https://github.com/features/actions)
+- [Jenkins](https://www.jenkins.io/)
+- [Travis](https://travis-ci.org/)
+- [Gerrit](https://www.gerritcodereview.com/)
 
-## 4. Test Techniques
+## Code coverage
+- [EclEmma - JaCoCo Java Code Coverage Library](https://www.jacoco.org/jacoco/)
+- [Istanbul](https://istanbul.js.org/)
 
-## 5. Test Management
+## Static code analysis
+- [PMD](https://pmd.github.io/) 
+- [Findbugs](http://findbugs.sourceforge.net/)
+- [SonarQube](https://docs.sonarqube.org/latest/) 
+- [checkstyle](https://checkstyle.sourceforge.io/)
+    - [google_checks.xml](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml)
+    - [google java style guide](https://google.github.io/styleguide/javaguide.html)
 
-## 6. Tool Support for Testing
+## API
+ - [Postman](https://www.postman.com/) 
+ - [Fitnesse](http://docs.fitnesse.org/FrontPage) with [HSAC](https://github.com/fhoeben/hsac-fitnesse-fixtures)
+ - [SoapUI by SmartBear](https://www.soapui.org/)
+ - [ReadyAPI by smartbear](https://smartbear.com/product/ready-api/overview/) Test Graphql
+
+## Javascript testing
+- [Jest](https://jestjs.io) Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+- [testing-library](https://testing-library.com)
+  - [docs](https://testing-library.com/docs/)
+- testdata and demosites
+  - [faker.js](https://github.com/marak/Faker.js/) generate massive amounts of fake data in the browser and node.js
+
+## API mocking
+- [wiremock](http://wiremock.org/)
+
+## Test data
+- [fakerjs](https://github.com/marak/Faker.js/)
+
+## Test runners/Assertion libraries/Test framework
++ [junit](https://junit.org/junit5/docs/current/user-guide/)
++ [testng](https://testng.org/doc/documentation-main.html)
+
+## Security
++ [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+
+## Others
++ [Kibana](https://www.elastic.co/kibana/)
++ [Splunk](https://www.splunk.com/)
++ [Jaeger framework](https://github.com/jaegertracing/jaeger)

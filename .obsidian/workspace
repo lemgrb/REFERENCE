@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "b443240d65760cbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "2055050e5c74a3f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "git.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1fb49a8ec4bd7ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "0805c8f33bc7bafe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b114886289f9330",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "73ad71174f2c623e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e23c43fb726f4e2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "212d124cd0d5e5a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d7b60dc6697e57c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2055050e5c74a3f2",
+  "lastOpenFiles": [
+    "git.md",
+    "TESTING.md",
+    "Automation Guide/Framework issues.md",
+    "Automation Guide/Browser Testing Guidelines and Recommendations.md",
+    "Automation Guide/Which test to automate.md",
+    "Automation Guide/Good Automated Tests.md",
+    "INDEX.md",
+    "Guides/testing.md",
+    "selenium.md",
+    "appium.md"
+  ]
+}
