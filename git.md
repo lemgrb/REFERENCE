@@ -40,3 +40,20 @@ $ git rm -r --cached .idea
 ````bash
 $ git remote -v
 ````
+### To know what will be deleted
+
+`git clean -n`
+`git clean --dry-run`
+
+### To delete unwanted files
+`git clean -fd`
+
+## Diff
+
+`git diff` - Uncommited changes. Local vs Index
+`git diff --cached` - Index vs HEAD
+`git diff HEAD`
+`git diff --name-only`
+
+## Config
+`git config --global diff`

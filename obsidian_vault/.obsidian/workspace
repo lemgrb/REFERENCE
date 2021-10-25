@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "85ec622140710509",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b22d2cd27b609d8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "By test level/Performance/jmeter.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86245b28469fcf02",
+    "type": "split",
+    "children": [
+      {
+        "id": "9935d7a7e40d0ce4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8649b33bd5667d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d434c5b3cdcd6417",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "69f6850f9c9af5d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "572282c3dc3c7b10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e3f608a3b17443a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "By test level/Performance/jmeter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3b22d2cd27b609d8",
+  "lastOpenFiles": [
+    "By test level/Performance/jmeter.md",
+    "DOCS.md",
+    "By test level/System/Tools/Appium.md",
+    "By test level/System/Tools/Selenium.md",
+    "By test level/System/Guidelines and Recommendations.md",
+    "By test level/System/Framework issues.md"
+  ]
+}

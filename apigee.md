@@ -1,0 +1,5 @@
+* [Oauth2](https://aaronparecki.com/oauth-2-simplified/)
+* [OauthV2 Policy](http://docs.apigee.com/api-services/content/oauthv2-policy)
+* [REST and Design Philosophy](http://academy.apigee.com/index.php/courses/elearning/fundamentals-restful-api-design/fundamentals-restful-api-design/introduction/REST_design_philosophy)
+* [Header Enrichment or Injection](https://community.apigee.com/questions/6517/header-enrichment.html)
+* [Apigee Academy](http://academy.apigee.com/index.php/courses/elearning)
