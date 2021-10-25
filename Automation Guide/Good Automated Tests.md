@@ -4,3 +4,7 @@
 3. Repeatable : always pass or fail
 4. Maintainable : easy to change
 5. Valuable
+
+## An ideal automated testing experience FOR ME is like LIGHTHOUSE
+
+Just one click and reports on Usability, Accessibility, Security, and Performance.

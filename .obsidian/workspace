@@ -7,11 +7,8 @@
         "id": "2055050e5c74a3f2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "git.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +84,15 @@
   },
   "active": "2055050e5c74a3f2",
   "lastOpenFiles": [
-    "git.md",
-    "TESTING.md",
+    "Untitled.md",
+    "Automation Guide/Why automate.md",
+    "Automation Guide/Which test to automate.md",
+    "Automation Guide/Tools Consideration.md",
+    "Automation Guide/Good Scenarios.md",
+    "Automation Guide/Good Automated Tests.md",
     "Automation Guide/Framework issues.md",
     "Automation Guide/Browser Testing Guidelines and Recommendations.md",
-    "Automation Guide/Which test to automate.md",
-    "Automation Guide/Good Automated Tests.md",
-    "INDEX.md",
-    "Guides/testing.md",
-    "selenium.md",
-    "appium.md"
+    "Automation Guide/Automation Success Means.md",
+    "git.md"
   ]
 }
