@@ -13,7 +13,10 @@
   - [Selenide](https://github.com/selenide/selenide)
   
 #### Python
- - [robot framework](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
+ - [robot framework user guide](https://robotframework.org/robotframework/#user-guide) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
+ - [robot framework keyword documentation](https://robotframework.org/robotframework/)
+ - [robotframework-requests Keyword documentation](https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html)
+ - [robotframework-seleniumlibrary Keyword documentation](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html)
  
 #### Appium (extends WebDriver)
 - [appium](https://appium.io/) Appium is an open source test automation framework for use with native, hybrid and mobile web apps.
