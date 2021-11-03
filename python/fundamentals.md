@@ -15,6 +15,26 @@ print(y + z)
 
 ## 2. Data Types
 
+### 2.0 Classes
++ Classes are blueprints for creating instances or objects
+
+```python
+class TestCase:
+    count = 0
+    # instance variable & attributes
+    def __init__(self, name):
+        self.name = name
+    # methods are part of the class. First argument usu. is 'self'
+    def print_name(self):
+        return self.name
+
+instance = TestCase("TC001")
+print(instance.count)
+print(TestCase.count)
+print(instance.print_name())
+print(instance.name)
+```
+
 ### 2.1 String
 - Concatenate STRINGS with `+`
 - Strings cannot be added to numeric values
