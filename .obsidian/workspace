@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "b443240d65760cbd",
+    "id": "1e9010aad7343365",
     "type": "split",
     "children": [
       {
-        "id": "2055050e5c74a3f2",
+        "id": "e46c9728a3507f68",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Performance Testing Guide/Basics.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e23c43fb726f4e2f",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Performance Testing Guide/Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2055050e5c74a3f2",
+  "active": "e46c9728a3507f68",
   "lastOpenFiles": [
+    "Performance Testing Guide/Basics.md",
+    "python/api_requests.md",
     "Untitled.md",
-    "Automation Guide/Why automate.md",
-    "Automation Guide/Which test to automate.md",
-    "Automation Guide/Tools Consideration.md",
-    "Automation Guide/Good Scenarios.md",
-    "Automation Guide/Good Automated Tests.md",
-    "Automation Guide/Framework issues.md",
-    "Automation Guide/Browser Testing Guidelines and Recommendations.md",
-    "Automation Guide/Automation Success Means.md",
-    "git.md"
+    "Test Automation Guide/Why automate.md",
+    "Test Automation Guide/Which test to automate.md",
+    "Test Automation Guide/Tools Consideration.md",
+    "Test Automation Guide/Good Scenarios.md",
+    "Test Automation Guide/Good Automated Tests.md",
+    "Test Automation Guide/Framework issues.md",
+    "Test Automation Guide/Browser Testing Guidelines and Recommendations.md"
   ]
 }
