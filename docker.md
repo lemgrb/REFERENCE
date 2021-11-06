@@ -56,3 +56,10 @@ sudo docker system df
 - List all images: `docker images`
 - Remove docker image: `docker rmi <IMAGE ID>`
 
+## Docker + WSL2
+Follow these guides:
+- [Setting up WSL Version 2 and the Ubuntu app](https://codefellows.github.io/setup-guide/windows/)
+- [Download Kernel update](https://aka.ms/wsl2kernel)
+- [Install NodeJS on Windows Subsystem for Linux (WSL2)](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
+- [Install STRAPI](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/docker.html#step-1-create-a-docker-compose-yaml-file)
+

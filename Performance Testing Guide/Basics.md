@@ -1,14 +1,6 @@
 ## Proxies
 1. You may record the requests using Proxies. JMeter for example has "[Test Script Record](http://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.html))" and [Postman](https://learning.postman.com/docs/sending-requests/capturing-request-data/proxy/) too
 
-## Authentication methods
-+ HTTP Basic Authentication
-+ HTTP Digest Authentication
-+ Session-based Auth
-+ Token-Based Authentication
-+ One Time Passwords
-+ OAuth and OpenID
-
 See this [article]([https://testdriven.io/blog/web-authentication-methods/](https://testdriven.io/blog/web-authentication-methods/)) by testdriven.io
 
 ## Distributed testing

@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e46c9728a3507f68",
+        "id": "9ee89317ff489ddd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Performance Testing Guide/Basics.md",
-            "mode": "source"
+            "file": "python/fundamentals.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e23c43fb726f4e2f",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Performance Testing Guide/Basics.md",
+                "file": "python/fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e46c9728a3507f68",
+  "active": "9ee89317ff489ddd",
   "lastOpenFiles": [
+    "python/fundamentals.md",
     "Performance Testing Guide/Basics.md",
     "python/api_requests.md",
     "Untitled.md",
@@ -97,7 +97,6 @@
     "Test Automation Guide/Tools Consideration.md",
     "Test Automation Guide/Good Scenarios.md",
     "Test Automation Guide/Good Automated Tests.md",
-    "Test Automation Guide/Framework issues.md",
-    "Test Automation Guide/Browser Testing Guidelines and Recommendations.md"
+    "Test Automation Guide/Framework issues.md"
   ]
 }

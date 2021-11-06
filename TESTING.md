@@ -39,6 +39,7 @@
 
 ## Performance
 + [JMeter](https://jmeter.apache.org/usermanual/index.html)
++ [JMeter cookbook](https://www.packtpub.com/product/jmeter-cookbook/9781783988280)
 + [Gatling](https://gatling.io/) load testing
 
 ## UI
@@ -80,6 +81,7 @@
   - [docs](https://testing-library.com/docs/)
 - testdata and demosites
   - [faker.js](https://github.com/marak/Faker.js/) generate massive amounts of fake data in the browser and node.js
++ [Six Essential Frameworks for Creating Automated Tests](https://dzone.com/refcardz/javascript-test-automation-frameworks) 
 
 ## API mocking
 - [wiremock](http://wiremock.org/)
@@ -93,8 +95,24 @@
 
 ## Security
 + [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
++ [OWASP Project Top ten](https://owasp.org/www-project-top-ten/)
++ [Find Security Bugs](http://find-sec-bugs.github.io/)
 
 ## Others
 + [Kibana](https://www.elastic.co/kibana/)
 + [Splunk](https://www.splunk.com/)
 + [Jaeger framework](https://github.com/jaegertracing/jaeger)
+
+## Exploratory testing
++ [Explore it! by Elizabeth Hendrickson](https://www.oreilly.com/library/view/explore-it/9781941222584/)
+
+## Others
++ [Evil tester](https://www.eviltester.com/)
+
+## SEO
++ https://www.sitemaps.org/
+
+## Logs and traces
++ Jaeger
++ Splunk
++ Kibana
