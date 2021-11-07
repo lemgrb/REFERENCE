@@ -51,6 +51,17 @@ A_re-introduction_to_JavaScript)
 + [React JS - React Tutorial for Beginners, Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 + [React: Getting Started by Samer Buna, Pluralsight](https://www.pluralsight.com/courses/react-js-getting-started)
 
+Storybook setup
+```bash
+$ npx sb init
+$ npm i @storybook/addon-postcss
+# See https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated-implicit-postcss-loader
+$ npm install @storybook/builder-webpack5 @storybook/manager-webpack5 --save-dev
+# See https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#webpack-5
+# import "../src/index.css" in .storybook/preview.js
+# import PropTypes from 'prop-types';
+```
+
 ### React State Management - Shared state by components
   - [Redux](https://redux.js.org/) - Redux is a predictable state container for JavaScript apps.
   - [React Context](https://reactjs.org/docs/context.html) Context provides a way to pass data through the component tree without having to pass props down manually at every level.
