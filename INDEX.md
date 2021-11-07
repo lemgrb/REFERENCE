@@ -50,7 +50,7 @@ A_re-introduction_to_JavaScript)
 + [_Learn React by Building an eCommerce Site_](https://www.freecodecamp.org/news/learn-react-by-building-an-ecommerce-site/)
 + [React JS - React Tutorial for Beginners, Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 + [React: Getting Started by Samer Buna, Pluralsight](https://www.pluralsight.com/courses/react-js-getting-started)
-
++ [Setting up ENV Variables Without create-react-app](https://stackoverflow.com/questions/59243719/setting-up-env-variables-without-create-react-app)
 Storybook setup
 ```bash
 $ npx sb init

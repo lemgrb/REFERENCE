@@ -73,12 +73,19 @@ e.g. `is_hot = True` or `is_true = 1>0`
   - `list("I am") `  --> ["I"," ","a","m"]
 
 ## Basic Operators, Maths
++ `*/+-`
++ `%` modulo
++ `**` exponent
++ `//` floor
++ PRECEDENCE: `(),**,*,/,//,%,+,-`
 
-## Comparisons
+## Comparisons and logical
++ `==` Equal
++ `!=` Not equal
++ `>,<,>=,<=`
++ `and`,`or`,`not`
 
 ## Conditional branching
-
-## Logical operators
 
 ## Loops
 
