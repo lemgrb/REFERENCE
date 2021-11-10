@@ -57,6 +57,12 @@ print(price.replace(',','')) # 5000
 - Of course, with decimal point
 #### 2.2.3 Complex
 ### 2.3 Sequence : `list(), tuple(), range()`
+range: mura rag sa lodash, generate number from 0 to n-1
+```python
+x = range(3)
+for y in x:
+  print(y) # --> 0,1,2
+```
 ### 2.4 Mapping : `dict()`
 ### 2.5 Set types: `set(), frozenset()`
 ### 2.6 Boolean : `bool`
@@ -85,9 +91,37 @@ e.g. `is_hot = True` or `is_true = 1>0`
 + `>,<,>=,<=`
 + `and`,`or`,`not`
 
-## Conditional branching
+## Conditional
+`if, else, elif`
 
 ## Loops
+`for` and `while`
+
+Loop through a string
+```python
+for s in "string":
+  print(s)
+```
+
+Loop through a list
+```python
+fruits = ["apple","orange"]
+for s in fruits:
+  print(s)
+```
+
++ break
++ continue
+
+while/else:
+```python
+i=1
+while(i<15):
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 15")
+```
 
 ### Loop
 
