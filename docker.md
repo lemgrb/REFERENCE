@@ -1,4 +1,11 @@
-## Install Docker + WSL2
+# Docker
+
++ **Image** - Created from Dockerfile with `build` command. Read-only templates daw ni containing instructions sa pag create og container.
+    + Daghan nig layers. Magsugod sa OS then pun-an og mga packages, imong app, etc.  
+    + Pwede ra mo pull og images e.g. `docker pull [name]`   
++ **Container** - Pag e-run na ang mga images, container na sya haha
+
+## Install Docker + WSL2 (Windows)
 
 > service --status-all
 > sudo service docker start
@@ -9,7 +16,17 @@
 4. Issue: https://stackoverflow.com/questions/64952238/docker-errors-dockerexception-error-while-fetching-server-api-version
 5. Download https://docs.docker.com/docker-for-windows/wsl/
 
-## Docker
+## Images
+
+1. Buhat og `Dockerfile`
+2. e-build ang image `docker build . -t hello-gauge-image` with tag 'hello-gauge-image'
+3. e-run ang image e.g. `docker run --volume `pwd`:/`pwd` --workdir `pwd` hello-gauge-image gauge run specs`
+    + `-v` or `--volume` : e-mount ang current working directory `pwd` sa HOST didto ra gihapon sa the same path `pwd` sa CONTAINER
+    + `-w` or `--workdir`: Usba ang working directory sulod sa container sa kung unsa ang result sa `pwd` command (print working directory)
+
+Example: https://docs.gauge.org/howto/ci_cd/docker.html?os=null&language=python&ide=vscode
+
+## Containers
 1. List all containers: `$ docker container ls`
 2. Build the container image: `$ docker build -t getting-started .`
 3. Run: `$ docker run -dp 3000:3000 getting-started`
