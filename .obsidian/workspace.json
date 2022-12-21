@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "1e9010aad7343365",
+    "type": "split",
+    "children": [
+      {
+        "id": "c562547cad1d001e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ee89317ff489ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/index.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1fb49a8ec4bd7ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "0805c8f33bc7bafe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b114886289f9330",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73ad71174f2c623e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e23c43fb726f4e2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "212d124cd0d5e5a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d7b60dc6697e57c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JS/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0b114886289f9330",
+  "lastOpenFiles": [
+    "Test Automation Guide/Which test to automate.md",
+    "python/fundamentals.md",
+    "Performance Testing Guide/Basics.md",
+    "python/api_requests.md",
+    "Untitled.md",
+    "Test Automation Guide/Why automate.md",
+    "Test Automation Guide/Tools Consideration.md",
+    "Test Automation Guide/Good Scenarios.md",
+    "Test Automation Guide/Good Automated Tests.md",
+    "Test Automation Guide/Framework issues.md"
+  ]
+}
