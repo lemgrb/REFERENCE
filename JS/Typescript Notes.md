@@ -74,4 +74,3 @@ let ltoExam : Exam = {
 + indexed access type
 + Utility types
 + decorators
-+ 

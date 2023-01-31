@@ -182,19 +182,18 @@ Di ko na gets!
 
 ### Automation problem
 + Dynamically create JSON object: CSV / MD table -> JSON object -> JSON string  <--- All JSON schema!
-+ Lesson learned: Did not use functions and objects!
++ Lesson learned: Did not use functions and objects! and other design patterns
 
 TODO:
 1. MDN
 2. Consolidate with REFERENCE
 
-### What i don't know
+### TODO
 
 + Classes
 + Async await promise
 + this!
-+ require vs impport
++ require vs import
 + prototypical inheritance
 + apply
-+ Just enough javascript for Cypress.
 + Performance and thread 

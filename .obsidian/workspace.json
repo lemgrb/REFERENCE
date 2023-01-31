@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c562547cad1d001e",
+        "id": "404fc2013cb4d049",
         "type": "tabs",
         "children": [
           {
-            "id": "9ee89317ff489ddd",
+            "id": "8ba55a3f2d891e57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/index.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8e13ec8bc0ec946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/Javascript Notes.md",
+                "file": "Testware/Test plan.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e3366c12267eca68",
+            "id": "aae6f58d3d988611",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typescript Notes.md",
+                "file": "JS/NodeJS Daily Kata.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mongo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typescript Notes.md",
+                "file": "JS/NodeJS Daily Kata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +117,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e3366c12267eca68",
+  "active": "aae6f58d3d988611",
   "lastOpenFiles": [
+    "JS/nextjs13.md",
+    "JS/Typescript Notes.md",
+    "JS/RESTFul API design in NodeJS.md",
+    "JS/React Kata.md",
+    "JS/NodeJS Daily Kata.md",
     "JS/Javascript Notes.md",
     "JS/index.md",
-    "Test Automation Guide/Which test to automate.md",
-    "python/fundamentals.md",
-    "Performance Testing Guide/Basics.md",
-    "python/api_requests.md",
-    "Test Automation Guide/Why automate.md",
-    "Test Automation Guide/Tools Consideration.md",
-    "Test Automation Guide/Good Scenarios.md",
-    "Test Automation Guide/Good Automated Tests.md"
+    "JS/gatsby kata.md",
+    "JS/API Authentication.md",
+    "Test Automation Guide/Test Automation University (Applitools)/Course - Web Element locator strategies.md"
   ]
 }
