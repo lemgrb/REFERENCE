@@ -1,3 +1,11 @@
+
++ Selenium IDE
+	+ "selenese" - is independent of the selenium tool
++ Selenium WebDriver  - The language bindings
+
+## WebDriver
+
+
 ## Parallel runs
 + Use ThreadLocal to isolate variables per thread
 
@@ -9,8 +17,8 @@
 - CONTAINS: `"//h4/a[contains(text()),"Log in"]`
 - SIBLING: `//label/following-sibling::input`
 - ANCESTOR: `//h1/ancestor::div`
-- AND: `//*[@type='submit' OR @name='btnReset']`
-- OR: `//input[@type='submit' and @name='btnLogin']`
+- OR: `//*[@type='submit' OR @name='btnReset']`
+- AND: `//input[@type='submit' and @name='btnLogin']`
 - PARENT: `//*[@id='rt-feature']//parent::div`
 
 ## Grid
@@ -23,3 +31,7 @@ Grid maintenance (if not using i.e. Saucelabs):
 
 ## Upload APK to saucelabs
 e.g. [Via curl](https://docs.saucelabs.com/mobile-apps/app-storage/)
+
+## Consider
+1. Change environments? test, staging, prod
+2. project properties (environment), suite, scenario, step

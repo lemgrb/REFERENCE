@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "404fc2013cb4d049",
+        "id": "7d6af99ded2b9278",
         "type": "tabs",
         "children": [
           {
-            "id": "8ba55a3f2d891e57",
+            "id": "d7e6380bbb7def63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testware/Test plan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aae6f58d3d988611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/NodeJS Daily Kata.md",
+                "file": "Test Automation Guide/gauge/Gauge Environment Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mongo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/NodeJS Daily Kata.md",
+                "file": "Test Automation Guide/gauge/Gauge Environment Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "aae6f58d3d988611",
+  "active": "d7e6380bbb7def63",
   "lastOpenFiles": [
-    "JS/nextjs13.md",
-    "JS/Typescript Notes.md",
-    "JS/RESTFul API design in NodeJS.md",
-    "JS/React Kata.md",
-    "JS/NodeJS Daily Kata.md",
-    "JS/Javascript Notes.md",
-    "JS/index.md",
-    "JS/gatsby kata.md",
-    "JS/API Authentication.md",
-    "Test Automation Guide/Test Automation University (Applitools)/Course - Web Element locator strategies.md"
+    "Test Automation Guide/selenium/Review.md",
+    "gauge.md",
+    "Test Automation Guide/Framework issues.md",
+    "Test Automation Guide/Browser Testing Guidelines and Recommendations.md",
+    "Test Automation Guide/Automation Success Means.md",
+    "Test Automation Guide/API Testing Guide.md",
+    "salesforce.md",
+    "Testware/Test plan.md",
+    "Testware/Test charter.md",
+    "INDEX.md"
   ]
 }

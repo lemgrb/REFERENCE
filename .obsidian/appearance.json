@@ -1,5 +1,9 @@
 {
   "baseFontSize": 16,
   "accentColor": "",
+<<<<<<< Updated upstream
   "theme": "system"
+=======
+  "theme": "moonstone"
+>>>>>>> Stashed changes
 }
