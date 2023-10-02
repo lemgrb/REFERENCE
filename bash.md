@@ -23,3 +23,11 @@
 * `--include=*.jmx`
 * `|sed 's/^/|- '`
 
+## Gzip
+* Decompress gzip file: `gzip -d <file>`
+
+## Cat
+* Include non printing character: `cat -v`
+
+## View Rhel version
++ `cat /etc/redhat-release`
