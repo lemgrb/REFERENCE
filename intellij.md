@@ -1,1 +1,3 @@
 - Switch tabs: `COMMAND + SHIFT + [`
+- Change view mode: `CTRL + ``
+- View todos: `View -> Tools Window -> Todo`
