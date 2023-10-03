@@ -31,3 +31,5 @@ Add `\C` for Case insensitive text seach:
 ```bash
 /someText\C
 ```
+
+Show non-printing characters: `:set list` unshow `:set nolist`
