@@ -56,4 +56,5 @@ $ git remote -v
 `git diff --name-only`
 
 ## Config
-`git config --global diff`
+- `git config --global --list`
+- `git config --list`
