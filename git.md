@@ -58,3 +58,4 @@ $ git remote -v
 ## Config
 - `git config --global --list`
 - `git config --list`
+- `git config --global credential.helper store`
